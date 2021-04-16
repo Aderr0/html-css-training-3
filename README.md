@@ -51,4 +51,4 @@ More use the flexbox wich are really useful !
 ## Author
 
 - Website - In development
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/Aderr0)
+- Frontend Mentor - [@Aderr0](https://www.frontendmentor.io/profile/Aderr0)
