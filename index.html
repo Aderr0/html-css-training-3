@@ -4,6 +4,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet"  href="https://fonts.googleapis.com/css?family=Inter">
+  <link rel="stylesheet"  href="https://fonts.googleapis.com/css?family=Lexend Deca">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
 
@@ -13,6 +16,7 @@
     .attribution {
       font-size: 11px;
       text-align: center;
+      color: hsla(0, 0%, 100%, 0.75);
     }
 
     .attribution a {
@@ -25,24 +29,26 @@
   <div class="container">
     <div class="card">
       <div class="info">
-        <h1>Get insights that help your business grow.</h1>
-        
-        <p>Discover the benefits of data analytics and make better decisions regarding revenue, customer
+        <h1 class="title">Get <span class="accent">insights</span> that help your business grow.</h1>
+        <p class="paragraph">Discover the benefits of data analytics and make better decisions regarding revenue, customer
           experience, and overall efficiency.</p>
         
-        <ul>
-          <li>10k+ companies</li>
-          <li>314 templates</li>
-          <li>12m+ queries</li>
+        <ul class="list-stats">
+          <li><h1 class="stat">10k+</h1> COMPANIES</li>
+          <li><h1 class="stat">314</h1> TEMPLATES</li>
+          <li><h1 class="stat">12M+</h1> QUERIES</li>
         </ul>
       </div>
-      <img src="./images/image-header-desktop.jpg" />
+      <div class="img-container">
+        <div class="img"></div>
+        <div class="img-filter"></div>
+      </div>
     </div>
   </div>
 
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="https://thispersondoesnotexist.com/">Aderr0</a>.
   </div>
 </body>
 
